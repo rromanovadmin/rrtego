@@ -18,9 +18,6 @@ dbcon101m = mysql.connector.connect(
     database="101m"
 
 )
-API_ID = '26135109'
-API_HASH = '1833d0727270754846bb414332d10a3b'
-BOT_TOKEN = '6101494933:AAFp9ywxEd-7MZYPImKahVJnHzqGOVIAYNw'
 
 client = TelegramClient(session_name, API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
